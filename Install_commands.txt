@@ -1,0 +1,53 @@
+Refer to:
+http://guides.spreecommerce.com/developer/getting_started_tutorial.html
+http://rubyonrails.org/download
+http://zisefeng.blog.51cto.com/1693416/329136
+http://www.cnblogs.com/tambor/archive/2011/12/25/rails_anzhuang_railsinstaller.html
+
+
+ImageMagick-6.8.6-5-Q16-x64-dll.exe (Spree uses  Image Magick)
+http://rails.webintellix.com/2010/01/04/how-to-install-rmagick-imagemagick-on-windows/ 
+
+-- dowloads
+
+http://rubyforge.org/frs/?group_id=167&release_id=47159  (Ruby  2.0.0-p195)
+
+
+
+---- local install
+c:\Sites\mystore>gem  install C:\spree\spree-master\cmd\spree_cmd-2.1.0.beta.gem
+Successfully installed spree_cmd-2.1.0.beta
+1 gem installed
+Installing ri documentation for spree_cmd-2.1.0.beta...
+Installing RDoc documentation for spree_cmd-2.1.0.beta...
+
+
+
+--- why ?? 
+
+c:\Sites\mystore>gem install rails -v 3.2.13
+Successfully installed rails-3.2.13
+1 gem installed
+Installing ri documentation for rails-3.2.13...
+Installing RDoc documentation for rails-3.2.13...
+
+c:\Sites\mystore>rails -v
+[31mhttps://github.com/spree/spree_gateway.git (at 2-0-stable) is not checked out. Please run `bundle install`[0m
+
+
+c:\Sites\mystore>gem install spree
+ERROR:  Error installing spree:
+        spree_core requires Ruby version >= 1.9.3.
+		
+		
+		
+----
+
+c:\Sites>gem install bundle
+ERROR:  Could not find a valid gem 'bundle' (>= 0), here is why:
+          Unable to download data from https://rubygems.org/ - SSL_connect returned=6 errno=0 state=SSLv3 read finished
+A (https://s3.amazonaws.com/production.s3.rubygems.org/latest_specs.4.8.gz)
+ERROR:  Interrupted
+Terminate batch job (Y/N)? ^C
+
+c:\Sites>gem install C:\spree\spree-master\spree
