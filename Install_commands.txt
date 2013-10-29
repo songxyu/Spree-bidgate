@@ -51,3 +51,16 @@ ERROR:  Interrupted
 Terminate batch job (Y/N)? ^C
 
 c:\Sites>gem install C:\spree\spree-master\spree
+
+
+
+
+
+c:\Sites>spree install --auto-accept
+C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:110:in `require': cannot load such file -- spree_cmd (
+LoadError)
+        from C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:110:in `rescue in require'
+        from C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:35:in `require'
+        from C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/spree_cmd-2.0.3/bin/spree:2:in `<top (required)>'
+        from C:/Ruby200-x64/bin/spree:23:in `load'
+        from C:/Ruby200-x64/bin/spree:23:in `<main>'
