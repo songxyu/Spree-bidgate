@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/stefansenk/spree-blogging-spree.git
+  revision: ef6a260b8f6b42e5db59b2550ec8e808b413bfc4
+  branch: 2-0-stable
+  specs:
+    spree_blogging_spree (0.3.0)
+      acts-as-taggable-on (~> 2.3.1)
+      spree_core (~> 2.0.0)
+
+GIT
   remote: https://github.com/spree/spree_auth_devise.git
   revision: 3a1aa02e73d3f6bcbb834a47366c41f6e5ca1049
   branch: 2-0-stable
@@ -60,6 +69,8 @@ GEM
     activesupport (3.2.14)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
+    acts-as-taggable-on (2.3.3)
+      rails (~> 3.0)
     acts_as_list (0.2.0)
       activerecord (>= 3.0)
     akami (1.2.0)
@@ -283,6 +294,7 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   spree (= 2.0.4)
   spree_auth_devise!
+  spree_blogging_spree!
   spree_gateway!
   sqlite3
   uglifier (>= 1.0.3)
